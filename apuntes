@@ -1,0 +1,19 @@
+DOM -> Document Object Model
+Es el lugar en donde se ve todo lo escrito en HTML
+tranformacion del HTML en objetos que son entendibles 
+por el navegador
+
+CSSOM -> CSS Object Model
+Renderiza el estilo de los objetos
+
+Render tree -> DOM y CSSOM juntos para poder ver las paginas
+web
+
+5 pasos del navegador
+Bytes-> coger el codigo y traformalo a bytes
+
+characters-> tranformar esos bytes a caracteres, con la codificacion que se
+            indiquq
+tokens-> identifica inicio y final de las etiquetas, sigue la especificacion W3C
+
+nodes->  
