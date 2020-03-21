@@ -5,15 +5,28 @@ por el navegador
 
 CSSOM -> CSS Object Model
 Renderiza el estilo de los objetos
+tranforma el arbol asignandole el CSS que se le asigna
 
 Render tree -> DOM y CSSOM juntos para poder ver las paginas
 web
 
 5 pasos del navegador
-Bytes-> coger el codigo y traformalo a bytes
+Bytes-> coger el codigo y transformalo a bytes
 
 characters-> tranformar esos bytes a caracteres, con la codificacion que se
-            indiquq
-tokens-> identifica inicio y final de las etiquetas, sigue la especificacion W3C
+            indique, ejemplo UTF-8
 
-nodes->  
+tokens-> identifica inicio y final de las etiquetas, sigue la especificacion W3C
+identifica cada una de las etiquetas, transforma a elementos HTML segun los caracteres
+que se asignan 
+
+nodes-> son objetos que se referencian a las etiquetas HTML
+
+DOM -> arbol estructural de etiquetas HTML
+
+PASOS DEL NAVEGADOR
+1 procesar html y construir el dom 
+2 procesar el css y construir el CSSOM
+3 DOM y CSSOM contruyen render tree
+4 ejecutar el diseño en el render tree
+5 pintar el nodo en la pantalla
