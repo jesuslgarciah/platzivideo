@@ -46,5 +46,51 @@ p:nth-child(2n){ -->> numero ordinales pares
 
 }
 
-SEUDO ELEMENTOS
+ARQUITECTURAS DE CSS
+Objetivos
+-predecibles
+-reutilizable
+-mantenible
+-escalable
+
+Buenas prácticas
+-Establecer reglas
+-Explicar la estructura base
+-Establecer estándares de codificación
+-Evitar largas hojas de estilo
+-Documentación
  
+ARQUITECTURAS DE CSS
+OOCSS
+CSS ORIENTADO A OBJETOS, separa el diseño del contenido
+compartir las propiedades entre elementos que se repitan
+footer y header comparten el width
+.globalwidth{
+    width: 100%;
+}
+
+BEM -> bloques, elementos y modificadores
+<header class="header">
+    <button class="header__button--red">RED</button>
+    <button class="header__button--yellow">YELLOW</button>
+</header>
+header->bloque
+button->elemento
+yellow o red->modificador
+
+SMACSS
+Arquitectura de CSS escalable y modular
+Componentes Base -> elementos que se utilizan mucho (botones)
+Layout -> elementos que se utilizan 1 vez (header, footer)
+Module -> Componentes que se usan mas de una vez
+State -> Estados, acciones de los componentes
+Theme -> Cambio de temas y colores
+
+
+ITCSS -> Triangulo invertido de CSS
+
+ATOMIC DESIGN -> separar atomos
+atomos -> elementos mas pequeños
+moleculas -> elementos mas grandes
+organismos ->
+templates ->
