@@ -30,3 +30,21 @@ PASOS DEL NAVEGADOR
 3 DOM y CSSOM contruyen render tree
 4 ejecutar el diseño en el render tree
 5 pintar el nodo en la pantalla
+
+ANATOMIA DE UN ELEMENTO HTML 
+etiqueta de apertura, contenido, etiqueta de cierre
+<h1>Hola</h1>
+
+SEUDOCLASES DE CSS
+p:first-child{ ->> primer elemento p
+
+}
+p:last-child{ -->> ultimo elemento p
+
+}
+p:nth-child(2n){ -->> numero ordinales pares
+
+}
+
+SEUDO ELEMENTOS
+ 
