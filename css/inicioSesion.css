@@ -9,6 +9,10 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 header{
     background-color:#21C08B;
     width: 100%;
@@ -84,23 +88,46 @@ header img{
 .login__container--remember-me{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.login__container--form label{
-    margin-right: 10px;
+.login__container--remember-me label{
+    margin: 0 10px;
     font-size: 14px;
 }
 
 .login__container--remember-me a{
+    margin-top: 4px;
     margin-left: 10px;
     font-size: 14px;
 }
 
-.login__container--remember-me a:hover{
-    text-decoration: underline;
+.login__container--social-media{
+    margin-top: 30px;
+}
+
+.login__container--social-media div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__container--register{
+    margin: 40px 0 20px 0;
+}
+
+.login__container--register a{
+    font-weight: bold;
 }
 
 .footer{
+    padding-top: 40px;
+    padding-bottom: 10px;
     background-color: #AB88FF;
+}
+
+.footer a{
+    font-size: 12px;
+    margin-left: 30px;
 }
 
