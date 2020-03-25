@@ -98,3 +98,7 @@ templates ->
 QUE ES UN COMPONENTE?
 Es una pieza muy pequeña que sirve para construir algo mas grande
 
+MEDIA QUERIES -> RESPONSIVE
+
+@media only screen an ()
+
